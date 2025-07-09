@@ -2,7 +2,7 @@
   "name": "antd-react-snippet",
   "displayName": "Antd React Snippet",
   "description": "高效开发 Ant Design + React + Ahooks 项目的代码片段插件，包含常用 ProTable 等实用模板。",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "bobostudio",
   "engines": {
     "vscode": "^1.101.0"
@@ -43,8 +43,28 @@
         "path": "./snippets/antd-cache-table.json"
       },
       {
-        "language": "javascriptreact",
-        "path": "./snippets/antd-cache-table.json"
+        "language": "typescript",
+        "path": "./snippets/antd-edit-modal.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/antd-edit-modal.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/antd-edit-drawer.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/antd-edit-drawer.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/antd-tabs-list.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/antd-tabs-list.json"
       }
     ]
   },

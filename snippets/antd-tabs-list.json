@@ -1,0 +1,28 @@
+{
+  "Antd Tabs List": {
+    "prefix": "atl",
+    "body": [
+      "import type { TabsProps } from 'antd'",
+      "import { Tabs } from 'antd'",
+      "import styled from 'styled-components'",
+      "/**",
+      " * $1 //TODO ${1: 注释}",
+      " */",
+      "export default function $2RegPerformance() {",
+      "    const items: TabsProps['items'] = [",
+      "        $3//TODO: ${2:添加标签页}",
+      "    ]",
+      "",
+      "    return <TabsStyled destroyInactiveTabPane={false} defaultActiveKey='1' items={items} />",
+      "}",
+      "",
+      "const TabsStyled = styled(Tabs)`",
+      "    .ant-tabs-tab {",
+      "        background-color: transparent !important;",
+      "        border: none !important;",
+      "    }",
+      "`"
+    ],
+    "description": "Antd 标签页列表模板"
+  }
+}

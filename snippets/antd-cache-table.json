@@ -1,6 +1,6 @@
 {
   "Antd CACHE Table": {
-    "prefix": "rft",
+    "prefix": "act",
     "body": [
       "import type { IPagination, IResponseData } from '@metering-system/components'",
       "import { CustomColumnsType, ProTable, SearchItem } from '@metering-system/components'",
@@ -175,6 +175,6 @@
       "\t)",
       "}"
     ],
-    "description": "缓存列表模板"
+    "description": "Antd 缓存列表模板"
   }
 }
