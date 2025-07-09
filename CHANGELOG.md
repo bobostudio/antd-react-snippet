@@ -7,5 +7,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.1] - 2025-07-09
 
 - 首次发布：
-  - 支持 antd ProTable 缓存列表片段（art）
+  - 支持 antd ProTable 缓存列表片段（rft）
   - 适配 TypeScript/TSX/JSX

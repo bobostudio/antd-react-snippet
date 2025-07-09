@@ -2,7 +2,7 @@
   "name": "antd-react-snippet",
   "displayName": "Antd React Snippet",
   "description": "高效开发 Ant Design + React + Ahooks 项目的代码片段插件，包含常用 ProTable 等实用模板。",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "bobostudio",
   "engines": {
     "vscode": "^1.101.0"
