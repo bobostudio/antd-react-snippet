@@ -1,0 +1,70 @@
+{
+  "name": "antd-react-snippet",
+  "displayName": "Antd React Snippet",
+  "description": "高效开发 Ant Design + React + Ahooks 项目的代码片段插件，包含常用 ProTable 等实用模板。",
+  "version": "0.0.1",
+  "publisher": "bobostudio",
+  "engines": {
+    "vscode": "^1.101.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "author": {
+    "name": "bobostudio",
+    "email": "15919854639@163.com"
+  },
+  "keywords": [
+    "antd",
+    "react",
+    "ahooks",
+    "snippet",
+    "typescript"
+  ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bobostudio/antd-react-snippet"
+  },
+  "bugs": {
+    "url": "https://github.com/bobostudio/antd-react-snippet/issues"
+  },
+  "homepage": "https://github.com/bobostudio/antd-react-snippet#readme",
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/antd-cache-table.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/antd-cache-table.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/antd-cache-table.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.101.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1",
+    "typescript": "^5.8.3",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}
