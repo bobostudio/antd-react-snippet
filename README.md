@@ -1,4 +1,4 @@
-# Antd React Snippet
+# [Antd React Snippet](https://marketplace.visualstudio.com/items?itemName=bobostudio.antd-react-snippet)
 
 高效开发 Ant Design + React + Ahooks 项目的 VS Code 代码片段插件。
 
